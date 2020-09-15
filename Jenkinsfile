@@ -18,7 +18,7 @@ stages{
   
   steps{
   
-  bat 'mvn clean'
+  echo  'mvn test'
   }
   }
   
@@ -26,7 +26,7 @@ stages{
   
   steps{
   
-  bat 'Clean Stage'
+  echo 'Clean Stage'
   }
   
 }
